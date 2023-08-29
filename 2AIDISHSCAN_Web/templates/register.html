@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <!-- Add the necessary styles if needed -->
+</head>
+<body>
+    <h1>Registration</h1>
+    <form action="/register" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" name="confirm_password" id="confirm_password" required>
+
+        <input type="submit" value="Register">
+    </form>
+    <p>Already have an account? <a href="/connexion">Login here</a></p>
+</body>
+</html>
